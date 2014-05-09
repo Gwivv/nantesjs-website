@@ -1,9 +1,12 @@
 # New version of NantesJS.org
 
-Use of Polyfill Javascript, [font-awesome][1] and [pure][2].
+Demo is available here [http://gwivv.github.io/nantesjs-website/][1].
 
- [1]:http://fortawesome.github.io/Font-Awesome/icons/
- [2]:http://purecss.io/
+Use of Polyfill Javascript, [font-awesome][2] and [pure][3].
+
+ [1]:http://gwivv.github.io/nantesjs-website/
+ [2]:http://fortawesome.github.io/Font-Awesome/icons/
+ [3]:http://purecss.io/
 
 # NantesJS.org (Original)
 
