@@ -1,4 +1,11 @@
-# NantesJS.org
+# New version of NantesJS.org
+
+Use of Polyfill Javascript, [font-awesome][1] and [pure][2].
+
+ [1]:http://fortawesome.github.io/Font-Awesome/icons/
+ [2]:http://purecss.io/
+
+# NantesJS.org (Original)
 
 This is the source of the nantesjs.org website. Fork it to propose enhancements, as it is in a "gh-pages" branch, you can show the result of your version to anyone via URLs formed like this:
 
