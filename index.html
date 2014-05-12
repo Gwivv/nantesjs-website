@@ -29,7 +29,7 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
     <!-- Pure CSS -->
-    <link rel="stylesheet" href="styles/bf87084b.pure.css">
+    <link rel="stylesheet" href="styles/25939ec5.pure.css">
 
     <!-- Css -->
     <link rel="stylesheet" href="styles/3f8cdd66.app.css">
@@ -250,39 +250,40 @@
         </div>
     </div>
 
-    <div class="ribbon pure-g">
+    <div class="ribbon">
         <h2 class="content-head content-head-ribbon">Markdown Javascript.</h2>
 
-        <div id="idDivSrc" class="l-box-lrg pure-u-1 pure-u-med-1-2 text-left">
-            NantesJS
-            ===
+        <div class="pure-g">
+            <div id="idDivSrc" class="l-box-lrg pure-u-med-1-2 text-left">
+                NantesJS
+                ===
 
-            * Article rédigé en markdown en utilisant 2 projets javascripts au top [**marked**][1] et [**highlight**][2].
+                * Article rédigé en markdown en utilisant 2 projets javascripts au top [**marked**][1] et [**highlight**][2].
 
-            * L'utilisation est super simple :
+                * L'utilisation est super simple :
 
-            ```javascript
-            // Pour changer de préfix de class
-            hljs.configure({classPrefix: ''});
+                ```javascript
+                // Pour changer de préfix de class
+                hljs.configure({classPrefix: ''});
 
-            // Utilisation de marked combiné à highlight
-            var divToMarkdown = document.getElementById("idDivToMarkdown");
+                // Utilisation de marked combiné à highlight
+                var divToMarkdown = document.getElementById("idDivToMarkdown");
 
-            marked(divToMarkdown.innerHTML, {
-            highlight: function (code) {
-            return hljs.highlightAuto(code).value;
-            }
-            }, function (err, content) {
-            if (err) throw err;
-            divToMarkdown.innerHTML = content;
-            });
-            ```
+                marked(divToMarkdown.innerHTML, {
+                highlight: function (code) {
+                return hljs.highlightAuto(code).value;
+                }
+                }, function (err, content) {
+                if (err) throw err;
+                divToMarkdown.innerHTML = content;
+                });
+                ```
 
-            [1]:https://github.com/chjj/marked
-            [2]:https://github.com/isagalaev/highlight.js
-        </div>
+                [1]:https://github.com/chjj/marked
+                [2]:https://github.com/isagalaev/highlight.js
+            </div>
 
-        <div id="idDivToMarkdown" class="l-box-lrg pure-u-1 pure-u-med-1-2 text-left code">
+            <div id="idDivToMarkdown" class="l-box-lrg pure-u-med-1-2 text-left code">
 NantesJS
 ===
 
@@ -293,10 +294,8 @@ NantesJS
 ```javascript
 // Pour changer de préfix de class
 hljs.configure({classPrefix: ''});
-
 // Utilisation de marked combiné à highlight
 var divToMarkdown = document.getElementById("idDivToMarkdown");
-
 marked(divToMarkdown.innerHTML, {
     highlight: function (code) {
         return hljs.highlightAuto(code).value;
@@ -309,6 +308,7 @@ marked(divToMarkdown.innerHTML, {
 
  [1]:https://github.com/chjj/marked
  [2]:https://github.com/isagalaev/highlight.js
+            </div>
         </div>
     </div>
 
@@ -346,9 +346,9 @@ marked(divToMarkdown.innerHTML, {
 <![endif]-->
 
 <!-- Marked JS -->
-<script src="scripts/49a14aaf.marked.js"></script>
+<script src="scripts/6c76feca.marked.js"></script>
 
 <!-- App JS -->
-<script src="scripts/1d010f92.app.js"></script>
+<script src="scripts/5268c6bd.app.js"></script>
 </body>
 </html>

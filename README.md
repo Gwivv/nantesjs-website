@@ -2,11 +2,8 @@
 
 Use of Polyfill Javascript, [font-awesome][1] and [pure][2].
 
-Sources are [here][3].
-
  [1]:http://fortawesome.github.io/Font-Awesome/icons/
  [2]:http://purecss.io/
- [3]:https://github.com/Gwivv/nantesjs-website-src
 
 # NantesJS.org (Original)
 
